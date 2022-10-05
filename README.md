@@ -1,20 +1,22 @@
-## Overall
+## Original Description
+
 QM7b dataset is an extension of the QM7 dataset for multitask learning where 13 additional properties
 (e.g., polarizability, HOMO and LUMO eigenvalues, excitation energies) have to be predicted at different levels of theory (ZINDO, SCS, PBE0, GW). Additional molecules comprising chlorine atoms are also included, totaling **7211** molecules.
 
 The dataset is composed of two multidimensional arrays **X (7211 x 23 x 23)** and **T (7211 x 14)** representing the inputs (Coulomb matrices) and the labels (molecular properties) and one array names of size 14 listing the names of the different properties.
 
-## Features (Work Complete)
-- Original Entries from QM7b Dataset
-- SMILES Strings for Easy Indexing
-- Fully Recovered xyz Coordinates
-- Transformed JSON Data Structure
-- Directly Readable Using Pymatgen
+
+## **What's New** (Work Complete)
+- **Same numbers of Entries but more**
+- **Transformed JSON Data Structure**
+- **SMILES Strings for Easy Indexing**
+- **Fully Recovered xyz Coordinates**
+- **Directly Readable into Pymatgen**
 
 # Data Structure
 ### JSON dictionary
 - Below is the example of the 1st entry- methane molecule in the QM7b dataset
-- Full cartesian coordinates are recovered and readable as IMolecule objects in Pymatgen
+- Full cartesian coordinates recovered and readable as IMolecule objects in Pymatgen
 - QM7b properties in native order for maximum compatibility
 #### Methane ([H]C([H])([H])[H]) Entry
 
