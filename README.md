@@ -137,8 +137,9 @@ The dataset is composed of two multidimensional arrays **X (7211 x 23 x 23)** an
 
 ### Property Rundown
 - Keys and units of the values
-- Documentation was absent in original QM7b
 - Further compatability with the native ordering
+- SMILES added thanks to the recovered coordiantes
+- Totaling 15 properties 
 
 |  Key            | Description                    | Unit  |
 | ------------- | ------------------------------ |    ----  |
